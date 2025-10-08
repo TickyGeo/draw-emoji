@@ -1,5 +1,5 @@
 const draw = (...x) => {
-    document.write(`<div style="width: ${x.at(0)}px; height: ${x.at(1)}px; background: ${x.at(2)}; border-radius: ${x.at(3)}%; position: absolute; top: ${x.at(4)}; left: ${x.at(-1)};"></div><br>`);
+    document.write(`<div style="width: ${x.at(0)}px; height: ${x.at(1)}px; background: ${x.at(2)}; border-radius: ${x.at(3)}%; position: absolute; top: ${x.at(4)}; left: ${x.at(-1)};"></div>`);
 }
 
 
